@@ -16,8 +16,8 @@ header {
     position: relative;
 }
 header > img {
-    -webkit-filter: brightness(0) invert(1) !important;
-    filter: brightness(0) invert(1) !important;
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
     opacity: 0.25;
     width: 750px;
     left: calc(25% - (750px / 436 * 416 / 2));
