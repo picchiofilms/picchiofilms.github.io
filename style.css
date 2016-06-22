@@ -9,7 +9,7 @@ body {
 }
 header {
     height:450px;
-    max-width:none;
+    max-width:none !important;
     background: linear-gradient(320deg, rgb(16,182,133), rgb(23,49,137));
     box-sizing: border-box;
     overflow: hidden;
