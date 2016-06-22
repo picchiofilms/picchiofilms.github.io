@@ -1,10 +1,25 @@
-header {
-    height:450px;
-    background: linear-gradient(320deg, rgb(16,182,133), rgb(23,49,137));
+body {
+    margin:0px;
 }
 .stroke {
     width: 100%;
     padding:20px 50px;
     max-width: 1140px;
     margin:auto;
+}
+header {
+    height:450px;
+    max-width:none;
+    background: linear-gradient(320deg, rgb(16,182,133), rgb(23,49,137));
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+header > img {
+    -webkit-filter: brightness(0) invert(1) !important;
+    filter: brightness(0) invert(1) !important;
+    opacity: 0.25;
+    width: 750px;
+    left: calc(25% - (750px / 436 * 416 / 2));
+    position: absolute;
 }
