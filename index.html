@@ -40,11 +40,6 @@
         <meta name="msapplication-square310x310logo" content="images/icon@310x310.png">
         <!-- ./Icons -->
         <link href='style.css' rel='stylesheet' type='text/css'>
-        <script>
-            document.body.onscroll = function() {
-                document.querySelector('header > div').style.top = (window.scrollY / 2) + 'px';
-            }
-        </script>
     </head>
     <body style="margin-top:450px;">
         <header style="position:absolute;top:0px;left:0px">
@@ -78,4 +73,9 @@
             </span>
         </div>
     </body>
+    <script>
+        document.body.onscroll = function() {
+            document.querySelector('header > div').style.top = (window.scrollY / 2) + 'px';
+        }
+    </script>
 </html>
