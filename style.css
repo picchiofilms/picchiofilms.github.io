@@ -54,6 +54,13 @@ header menu > a:link, header menu > a:visited {
 }
 header menu {margin:0px;float:right;}
 header > .balk {height:66px;width:100%;position:fixed;}
+header > .balk > span {
+    padding: 0 20px;
+    margin: auto;
+    display: block;
+    max-width: 1000px;
+    box-sizing: border-box;
+}
 h1 {
     font-family:Teko;
     font-size:40px;
