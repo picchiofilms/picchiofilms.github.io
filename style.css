@@ -6,9 +6,12 @@ body {
 }
 .stroke {
     width: 100%;
+}
+.stroke > span {
     padding:20px 50px;
     max-width: 1140px;
     margin:auto;
+    box-sizing:border-box;
 }
 header {
     height:450px;
