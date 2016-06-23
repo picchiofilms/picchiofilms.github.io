@@ -48,6 +48,11 @@
                 <img class="logo" src="images/logo.svg">
             </div>
         </header>
+        <script>
+            document.body.onscroll = function() {
+                document.querySelector('header > div').style.top = (window.scrollY / 2) + 'px';
+            }
+        </script>
         <div class="stroke" style="background:white;">
             <span>
                 <h1>Picchio</h1>
@@ -73,9 +78,4 @@
             </span>
         </div>
     </body>
-    <script>
-        document.body.onscroll = function() {
-            document.querySelector('header > div').style.top = (window.scrollY / 2) + 'px';
-        }
-    </script>
 </html>
