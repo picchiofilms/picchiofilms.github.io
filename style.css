@@ -12,6 +12,7 @@ body {
     max-width: 1140px;
     margin:auto;
     box-sizing:border-box;
+    display:block;
 }
 header {
     height:450px;
@@ -38,4 +39,9 @@ header > .logo {
     top: 50%;
     left: 50%;
     margin-left: calc(-150px / 540 * 1040);
+}
+h1 {
+    font-family:Teko;
+    font-size:40px;
+    line-height:35px;
 }
