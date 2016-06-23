@@ -49,7 +49,7 @@
             </div>
         </header>
         <script>
-            document.body.onscroll = function() {
+            window.onscroll = function() {
                 document.querySelector('header > div').style.top = ((document.documentElement.scrollTop || document.body.scrollTop) / 2) + 'px';
             }
         </script>
