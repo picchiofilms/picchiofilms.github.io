@@ -44,7 +44,15 @@ header .logo {
     left: 50%;
     margin-left: calc(-150px / 540 * 1040);
 }
-header menu > a:link, header menu > a:visited {color:white;margin:5px 0;font-size:20px;}
+header menu > a:link, header menu > a:visited {
+    color: white;
+    margin: 0 10px;
+    display: block;
+    float: left;
+    font-size: 20px;
+    line-height: 66px;
+}
+header menu {margin:0px;float:right;}
 header > .balk {height:66px;width:100%;position:fixed;}
 h1 {
     font-family:Teko;
