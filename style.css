@@ -15,11 +15,16 @@ header {
     overflow: hidden;
     position: relative;
 }
-header > img {
+header > img.background-vogel {
     -webkit-filter: brightness(0) invert(1);
     filter: brightness(0) invert(1);
     opacity: 0.25;
     width: 750px;
     left: calc(25% - (750px / 436 * 416 / 2));
     position: absolute;
+}
+header > logo {
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+    height:200px;
 }
