@@ -61,9 +61,12 @@
         <script>
             window.onscroll = function() {
                 document.querySelector('header > div.background').style.top = ((document.documentElement.scrollTop || document.body.scrollTop) / 2) + 'px';
-                if ((document.documentElement.scrollTop || document.body.scrollTop) < document.querySelector('header').offsetHeight - 66 && document.querySelector('header > div.background .logo').style.opacity != 0 && document.querySelector('header > div.background .background-vogel').style.opacity != 0) {
+                if ((document.documentElement.scrollTop || document.body.scrollTop) < document.querySelector('header').offsetHeight - 66) {
                     document.querySelector('header > div.background .logo').style.opacity = 1 - (document.documentElement.scrollTop || document.body.scrollTop) / (document.querySelector('header').offsetHeight - 66);
                     document.querySelector('header > div.background .background-vogel').style.opacity = document.querySelector('header > div.background .logo').style.opacity * 0.25;
+                } else if (document.querySelector('header > div.background .logo').style.opacity !== 0 && document.querySelector('header > div.background .background-vogel').style.opacity !== 0) {
+                    document.querySelector('header > div.background .logo').style.opacity = 0;
+                    document.querySelector('header > div.background .background-vogel').style.opacity = 0
                 }
             }
         </script>
