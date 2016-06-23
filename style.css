@@ -34,7 +34,7 @@ header img.background-vogel {
     left: calc(25% - (750px / 436 * 416 / 2));
     position: absolute;
 }
-header .logo {
+header .background .logo {
     -webkit-filter: brightness(0) invert(1);
     filter: brightness(0) invert(1);
     height: 300px;
