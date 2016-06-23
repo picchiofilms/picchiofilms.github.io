@@ -61,6 +61,11 @@ header > .balk > span {
     max-width: 1000px;
     box-sizing: border-box;
 }
+header > .balk .logo {
+    height: calc(100% - 10px);
+    margin: 5px 0;
+    float: left;
+}
 h1 {
     font-family:Teko;
     font-size:40px;
