@@ -17,12 +17,16 @@ body {
 header {
     height:450px;
     width:100%;
-    background: linear-gradient(320deg, rgb(16,182,133), rgb(23,49,137));
-    box-sizing: border-box;
     overflow: hidden;
     position: relative;
 }
-header > img.background-vogel {
+header > div {
+    background: linear-gradient(320deg, rgb(16,182,133), rgb(23,49,137));
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+header img.background-vogel {
     -webkit-filter: brightness(0) invert(1);
     filter: brightness(0) invert(1);
     opacity: 0.25;
@@ -30,7 +34,7 @@ header > img.background-vogel {
     left: calc(25% - (750px / 436 * 416 / 2));
     position: absolute;
 }
-header > .logo {
+header .logo {
     -webkit-filter: brightness(0) invert(1);
     filter: brightness(0) invert(1);
     height: 300px;
