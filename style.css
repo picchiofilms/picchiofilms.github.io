@@ -20,7 +20,7 @@ header {
     overflow: hidden;
     position: relative;
 }
-header > div {
+header > div.background {
     background: linear-gradient(320deg, rgb(16,182,133), rgb(23,49,137));
     width:100%;
     height:100%;
