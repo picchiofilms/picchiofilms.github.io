@@ -60,8 +60,11 @@ header > .balk > span {
     display: block;
     max-width: 1000px;
     box-sizing: border-box;
+    height:100%;
 }
 header > .balk .logo {
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
     height: calc(100% - 10px);
     margin: 5px 0;
     float: left;
