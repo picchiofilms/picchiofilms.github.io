@@ -25,6 +25,7 @@ header > div.background {
     width:100%;
     height:100%;
     position:absolute;
+    z-index:999;
 }
 header img.background-vogel {
     -webkit-filter: brightness(0) invert(1);
@@ -53,7 +54,7 @@ header menu > a:link, header menu > a:visited {
     line-height: 66px;
 }
 header menu {margin:0px;float:right;}
-header > .balk {height:66px;width:100%;position:fixed;}
+header > .balk {height:66px;width:100%;position:fixed;top:0px;z-index:1000;}
 header > .balk > span {
     padding: 0 20px;
     margin: auto;
