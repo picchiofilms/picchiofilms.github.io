@@ -38,12 +38,15 @@ header img.background-vogel {
 header .background .logo {
     -webkit-filter: brightness(0) invert(1);
     filter: brightness(0) invert(1);
-    height: 300px;
-    margin-top: -150px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-left: calc(-150px / 540 * 1040);
+    width: 100%;
+    height: 100%;
+    max-width: 575px;
+    margin: auto;
+    display: block;
+    float: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+    position: relative;
 }
 header menu > a:link, header menu > a:visited {
     color: white;
