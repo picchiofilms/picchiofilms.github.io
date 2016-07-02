@@ -80,6 +80,9 @@ h1 {
     font-size:40px;
     line-height:35px;
 }
+header > .balk .material-spec-icon {
+    display:none;
+}
 p.intro {font-size:20px;}
 a:link {color:rgb(16,182,133);}
 a:visited {color:rgb(23,49,137);}
@@ -117,5 +120,15 @@ a:visited {color:rgb(23,49,137);}
         margin-left: auto;
         margin-right: auto;
         display: block;
+        height: calc(100% - 20px);
+        margin: 10px 0;
+    }
+    header > .balk .material-spec-icon {
+        color: white;
+        line-height: 66px;
+        position: absolute;
+        top: 0px;
+        font-size: 35px;
+        display:block;
     }
 }
