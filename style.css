@@ -83,7 +83,7 @@ p.intro {font-size:20px;}
 a:link {color:rgb(16,182,133);}
 a:visited {color:rgb(23,49,137);}
 @media (max-width: 650px) {
-    menu {
+    header menu {
         position: fixed;
         width: calc(100% - 30px);
         padding: 0px;
@@ -97,10 +97,10 @@ a:visited {color:rgb(23,49,137);}
         -webkit-transition: left 0.5s;
         transition: left 0.5s;
     }
-    menu.active {
+    header.active menu {
         left:0;
     }
-    menu > a:link, menu > a:visited {
+    header menu > a:link, header menu > a:visited {
         margin: 0px;
         width: 100%;
         color: black;
