@@ -80,6 +80,13 @@
                     document.querySelector('header > div.balk .logo').style.opacity = 1;
                 }
             }
+            document.querySelector('header > .balk .material-spec-icon').onclick = function() {
+                if (document.querySelector('header').classList.contains('active')) {
+                    document.querySelector('header').classList.remove('active')
+                } else {
+                    document.querySelector('header').classList.add('active')
+                }
+            }
         </script>
         <div class="stroke" style="background:white;">
             <span>
