@@ -85,6 +85,12 @@ h1 {
     line-height:35px;
 }
 header > .balk .material-spec-icon {
+    color: white;
+    line-height: 66px;
+    position: absolute;
+    top: 0px;
+    font-size: 35px;
+    cursor:pointer;
     display:none;
 }
 p.intro {font-size:20px;}
@@ -125,11 +131,6 @@ a:visited {color:rgb(23,49,137);}
         margin: 10px auto;
     }
     header > .balk .material-spec-icon {
-        color: white;
-        line-height: 66px;
-        position: absolute;
-        top: 0px;
-        font-size: 35px;
         display:block;
     }
 }
