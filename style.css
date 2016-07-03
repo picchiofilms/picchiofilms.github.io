@@ -22,6 +22,7 @@ header {
     width:100%;
     overflow: hidden;
     position: relative;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
 }
 header > div.background {
     background: linear-gradient(320deg, rgb(16,182,133), rgb(23,49,137));
