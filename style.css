@@ -7,6 +7,8 @@ body {
 }
 .stroke {
     width: 100%;
+    background-size:cover;
+    background-position:center;
 }
 .stroke > span {
     padding: 75px 20px;
