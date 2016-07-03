@@ -49,9 +49,10 @@
             </div>
             <div class="balk">
                 <span>
-                    <i class="material-icons material-spec-icon" title="Navigeren">menu</i>
+                    <i class="material-icons material-spec-icon" title="Navigeren" onclick="ToggleMenu()">menu</i>
                     <a href="/"><img class="logo" src="images/logo.svg"></a>
                     <menu>
+                        <i class="material-icons" onclick="ToggleMenu()">arrow_back</i>
                         <a href="/">Home</a>
                         <a href="/nieuws">Nieuws</a>
                         <a href="/overons">Over ons</a>
@@ -80,7 +81,7 @@
                     document.querySelector('header > div.balk .logo').style.opacity = 1;
                 }
             }
-            document.querySelector('header > .balk .material-spec-icon').onclick = function() {
+            function ToggleMenu() {
                 if (document.querySelector('header').classList.contains('active')) {
                     document.querySelector('header').classList.remove('active')
                 } else {
