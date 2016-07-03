@@ -16,6 +16,7 @@ body {
     margin:auto;
     box-sizing:border-box;
     display:block;
+    /* background-attachment: fixed; */
 }
 header {
     height:450px;
