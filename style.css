@@ -120,7 +120,7 @@ a.box {
     border-radius: 15px;
     background-size: contain !important;
 }
-a.box:last-child {
+a.box:nth-child(4n+0) {
     margin: 0;
 }
 @media (max-width: 650px) {
@@ -161,5 +161,12 @@ a.box:last-child {
     }
     header > .balk .material-spec-icon, header > .balk menu .material-back-icon {
         display:block;
+    }
+    a.box {
+        width: calc(25% - (1 * 20px / 2));
+        padding-bottom: calc(25% - (1 * 20px / 2));
+    }
+    a.box:nth-child(2n+0) {
+        margin: 0;
     }
 }
