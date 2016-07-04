@@ -107,6 +107,21 @@ header > .balk menu .material-back-icon {
 p.intro {font-size:20px;}
 a:link {color:rgb(16,182,133);}
 a:visited {color:rgb(23,49,137);}
+.boxes {overflow:hidden;}
+a.box {
+    width: calc(25% - (3 * 20px / 4));
+    box-sizing: border-box;
+    padding-bottom: calc(25% - (3 * 20px / 4));
+    display: block;
+    margin: 0 20px 0 0;
+    height: 0;
+    float: left;
+    border: 2px solid gray;
+    border-radius: 15px;
+}
+a.box:last-child {
+    margin: 0;
+}
 @media (max-width: 650px) {
     header menu {
         position: fixed;
