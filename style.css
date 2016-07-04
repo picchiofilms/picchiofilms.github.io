@@ -118,6 +118,7 @@ a.box {
     float: left;
     border: 2px solid gray;
     border-radius: 15px;
+    background-size: contain;
 }
 a.box:last-child {
     margin: 0;
