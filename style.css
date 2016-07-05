@@ -121,7 +121,7 @@ a.box {
     border-radius: 15px;
     background-size: contain !important;
 }
-@media (min-width: 650px) {
+@media (min-width: 651px) {
     a.box:nth-child(4n+0) {
         margin-right: 0;
     }
