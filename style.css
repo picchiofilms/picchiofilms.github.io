@@ -125,10 +125,10 @@ a.box {
     a.box:nth-child(4n+0) {
         margin: 0;
     }
-    a.box:nth-last-child(0),
     a.box:nth-last-child(1),
     a.box:nth-last-child(2),
-    a.box:nth-last-child(3) {
+    a.box:nth-last-child(3),
+    a.box:nth-last-child(4) {
         margin-bottom:0px;
     }
 }
@@ -178,8 +178,8 @@ a.box {
     a.box:nth-child(2n+0) {
         margin: 0;
     }
-    a.box:nth-last-child(0),
-    a.box:nth-last-child(1) {
+    a.box:nth-last-child(1),
+    a.box:nth-last-child(2) {
         margin-bottom:0px;
     }
 }
