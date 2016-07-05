@@ -123,13 +123,13 @@ a.box {
 }
 @media (min-width: 650px) {
     a.box:nth-child(4n+0) {
-        margin: 0;
+        margin-right: 0;
     }
     a.box:nth-last-child(1),
     a.box:nth-last-child(2),
     a.box:nth-last-child(3),
     a.box:nth-last-child(4) {
-        margin-bottom:0px;
+        margin-bottom:0;
     }
 }
 @media (max-width: 650px) {
@@ -176,10 +176,10 @@ a.box {
         padding-bottom: calc(50% - (1 * 20px / 2));
     }
     a.box:nth-child(2n+0) {
-        margin: 0;
+        margin-right: 0;
     }
     a.box:nth-last-child(1),
     a.box:nth-last-child(2) {
-        margin-bottom:0px;
+        margin-bottom:0;
     }
 }
