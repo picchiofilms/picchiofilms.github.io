@@ -117,7 +117,7 @@ a.box {
     margin: 0 20px 0 0;
     height: 0;
     float: left;
-    border: 2px solid gray;
+    border: 2px solid #dddddd;
     border-radius: 15px;
     background-size: contain !important;
 }
