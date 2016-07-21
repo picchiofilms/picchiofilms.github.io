@@ -20,7 +20,7 @@
        transform="scale(0.1)"
        id="g12"><path
          id="path14"
-         style="fill:#e3e2e0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         style="fill:rgba(0,0,0,0.12);fill-opacity:1;fill-rule:nonzero;stroke:none"
          d="m 6472.67,3520.94 -2420.42,1616.25 2760,-1440 -339.58,-176.25" /><path
          id="path16"
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
