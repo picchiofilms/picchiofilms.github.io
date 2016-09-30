@@ -41,6 +41,17 @@
         <meta name="msapplication-square310x310logo" content="images/icon@310x310.png">
         <!-- ./Icons -->
         <link href='style.css' rel='stylesheet' type='text/css'>
+        <script type='text/javascript'>
+            var data
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    data = JSON.parse(this.response);
+                }
+            };
+            xmlhttp.open("GET", "/data.json", true);
+            xmlhttp.send();
+        </script>
     </head>
     <body style="margin-top:450px;">
         <header style="position:absolute;top:0px;left:0px">
