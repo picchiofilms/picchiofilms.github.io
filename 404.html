@@ -4,9 +4,29 @@
         <meta charset="utf-8">
         <title>Pagina niet gevonden | Picchio</title>
         <link href='style.css' rel='stylesheet' type='text/css'>
+        <style>
+            p#notfound {
+                color: white;
+                z-index: 999;
+                position: absolute;
+                width: 100%;
+                font-size: 39px;
+                line-height: 1em;
+                text-align: center;
+                margin: 0px;
+                vertical-align: middle;
+                top: 50%;
+                margin-top: calc(-239px / 2);
+            }
+            p#notfound > span {
+                display: block;
+                font-size: 200px;
+                line-height: 1em;
+            }
+        </style>
     </head>
     <body>
-        <header style="position:absolute;height:100%;z-index:0;">
+        <header style="position:absolute;height:100%;">
             <div class="background">
                 <img class="background-vogel" src="images/vogel.svg">
             </div>
@@ -26,7 +46,9 @@
                 </span>
             </div>
         </header>
-        <span>404</span>
-        <span>Deze pagina is niet gevonden</span>
+        <p id="notfound">
+            <span>404</span>
+            Deze pagina is niet gevonden
+        </p>
     </body>
 </html>
