@@ -41,6 +41,7 @@
         <meta name="msapplication-square310x310logo" content="images/icon@310x310.png">
         <!-- ./Icons -->
         <link href='style.css' rel='stylesheet' type='text/css'>
+        <script src="picchio.js" type="text/javascript"></script>
         <script type='text/javascript'>
             var data
             var xmlhttp = new XMLHttpRequest();
@@ -91,13 +92,6 @@
                     document.querySelector('header > div.background .logo').style.opacity = 0;
                     document.querySelector('header > div.background .background-vogel').style.opacity = 0;
                     document.querySelector('header > div.balk .logo').style.opacity = 1;
-                }
-            }
-            function ToggleMenu() {
-                if (document.querySelector('header').classList.contains('active')) {
-                    document.querySelector('header').classList.remove('active')
-                } else {
-                    document.querySelector('header').classList.add('active')
                 }
             }
         </script>
