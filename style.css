@@ -171,6 +171,12 @@ a.box {
     header > .balk .material-spec-icon, header > .balk menu .material-back-icon {
         display:block;
     }
+    header > .balk .material-spec-icon {
+        padding: 0 20px;
+    }
+    header > .balk > span {
+        padding: 0;
+    }
     a.box {
         width: calc(50% - (1 * 20px / 2));
         padding-bottom: calc(50% - (1 * 20px / 2 + 4px));
